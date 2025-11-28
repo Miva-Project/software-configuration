@@ -1,7 +1,7 @@
 students = [
-    {
-        "name": "Blessing Ajala",
-        "score": 20
-    }
+    # {
+    #     "name": "Blessing Ajala",
+    #     "score": 20
+    # }
 ]
 
