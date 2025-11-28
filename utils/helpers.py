@@ -9,7 +9,6 @@ class Student(BaseModel):
 
 
 def highest_score(students: List[Student]) -> float:
-    print(students)
     if not students:
         return 0
     return max(s.score for s in students)
