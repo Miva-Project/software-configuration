@@ -3,6 +3,8 @@ from utils import helpers
 
 def app():
 
+    helpers.add_student(students, "Blessing", 20)
+    helpers.add_student(students, "Praises", 30)
     highest_score = helpers.highest_score(students)
     lowest_score = helpers.lowest_score(students)
     average_score = helpers.average_score(students)
@@ -15,7 +17,6 @@ def app():
     print("The average score is", average_score, "\n")
     
 
-    helpers.add_student(students, "Praises", 30)
     print("The logged students: ", students, "\n")
 
 
