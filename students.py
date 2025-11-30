@@ -6,6 +6,10 @@ students = [
     {
         "name": "Oluwibe Faith",
         "score": 10
+    },
+    {
+        "name": "Peace Adesola",
+        "score": 15
     }
 ]
 
